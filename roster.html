@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>UMWSC | Roster</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
+    </head>
+    <body>
+        <div id="pageContent">
+            
+        <!--NAVIGATION BAR--> 
+        <ul>
+          <li>
+            <a href="#home">
+              <img src="assets/michigan.png" alt="Michigan M" style="height: 20px; vertical-align: middle;" />
+            </a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="roster.html">Roster</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+            
+        <!--ROSTER PAGE TITLE AND YEAR SELECTION-->
+            
+        <div id="title" style="padding-top: 5vh; padding-bottom: 5vh">
+            
+            <h1 class="roster-title" style="font-weight: 500">PLAYER ROSTER</h1>
+            
+            <div style="text-align: center">
+                <select id="yearSelect">
+                  <option value="2025">2025-2026</option>
+                  <option value="2024">2024-2025</option>
+                </select>
+            </div>
+        </div>
+             
+        <!--ROSTER PAGES-->
+            
+              
+        <div id="roster-2025" class="roster-year"> 
+            <h1 class='placeholder'>COMING SOON</h1>
+        </div>
+
+        <div id="roster-2024" class="roster-year" style="display: none;"> 
+            <p>2024</p>
+        </div>
+            
+            
+        <footer>
+            <a style="padding-right: 3px">&copy; 2025 University of Michigan Women's Soccer Club</a>
+            <a href="https://www.instagram.com/umwsc/" target="_blank">
+            <i class="fab fa-instagram" style="color: #00274c"></i>
+            </a>
+            
+            
+        </footer>
+        </div>
+    <script src="actions.js"></script>
+    </body>
+</html>

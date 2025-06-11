@@ -1,0 +1,107 @@
+/* MAIZE: #ffcb05
+ * BLUE: #00274c
+ * GREY: #e8e8e8
+ * */
+
+.title {
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-weight: 364;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.roster-title {
+    color: black;
+      font-family: "Zilla Slab", serif; 
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pageContent {
+    margin-top: 1vh; 
+    margin-bottom: 1vh; 
+    margin-left: 1vw; 
+    margin-right: 1vw;
+    background-color: floralwhite; 
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Zilla Slab", serif; 
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffcb05;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+    color: white;
+}
+
+li a:hover:not(:has(img)) {
+  border-bottom: 2px solid #00274c;
+}
+
+/* Active styling for all EXCEPT Home */
+li a.active:not([href="#home"]) {
+  color: white;
+}
+
+footer {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-size: 14px;
+    font-weight:10;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #ffcb05;
+}
+
+select {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  margin: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border-radius: 7px;
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.placeholder{
+    font-family: "Outfit", sans-serif;
+    font-size: 21px;
+    font-weight:701; 
+    text-align: center;
+    margin-bottom: 6vh;
+    color: #00274c
+}
