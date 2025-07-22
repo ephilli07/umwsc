@@ -63,9 +63,9 @@
       <h1 class="subtitle" style="font-weight: 600">PLAYER ROSTER</h1>
       <div style="text-align: center">
         <select id="yearSelect">
+          <option value="2024" selected>2024-2025</option>
           <option value="2025">2025-2026</option>
-          <option value="2024">2024-2025</option>
-        </select>
+        </select>        
       </div>
     </div>
 
@@ -135,7 +135,7 @@
       
       <!-- Bella De Melo -->
       <div class="player-profile">
-        <img src="assets/players/Gina.jpg" alt="Bella De Melo" class="player-photo">
+        <img src="assets/players/Bella.jpg" alt="Bella De Melo" class="player-photo">
         <div class="player-info">
           <div class="player-name">Bella De Melo<span class="jersey-number">#12</span></div>
           <div class="player-details">Midfielder • Junior • Bay Area, CA</div>
@@ -474,6 +474,12 @@
       yearSelect.value = savedYear;
       yearSelect.dispatchEvent(new Event('change'));
     }
+    // Fallback if no year is saved in session storage
+    if (!savedYear) {
+      yearSelect.value = '2024';
+      yearSelect.dispatchEvent(new Event('change'));
+    }
+
   </script>
 </body>
 </html>
