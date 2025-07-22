@@ -26,6 +26,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  cursor: url('assets/soccer.png') 32 32, auto;
 }
 
 /* Titles */
@@ -37,6 +38,8 @@ html, body {
   margin-bottom: 0;
   font-size: 90px;
 }
+
+
 
 .subtitle {
   color: black;
